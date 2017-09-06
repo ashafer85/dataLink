@@ -41,12 +41,12 @@ Features
 
 * Automated mapping between classes and tables
 
-    `class Team < SQLObject
-    end`
+    `class Team < SQLObject`
+    `end`
 
 * Associations between objects defined with sinpple class methods
 
-    `class Conference < SQLObject
-      has_many :teams
-      belongs_to :division
-    end`
+    `class Conference < SQLObject`
+      `has_many :teams`
+      `belongs_to :division`
+    `end`
