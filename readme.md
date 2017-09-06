@@ -1,4 +1,5 @@
-= dataLink -- Object-relational mapping
+dataLink (Object-relational mapping)
+-------------------------------------
 
 Inspired by ActiveRecord, dataLink is a Ruby Object Relational Mapping tool
 that converts tables in a SQLite3 database into instances of SQLObject class.
@@ -39,12 +40,13 @@ Features
 --------
 
 * Automated mapping between classes and tables
-    class Team < SQLObject
-    end
+
+    `class Team < SQLObject
+    end`
 
 * Associations between objects defined with sinpple class methods
 
-    class Conference < SQLObject
+    `class Conference < SQLObject
       has_many :teams
       belongs_to :division
-    end
+    end`
