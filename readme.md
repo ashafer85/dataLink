@@ -30,10 +30,10 @@ You may find referencing the dataLink sample file `./lib/teams.rb` on the dataLi
 explore this document.
 
 Once dataLink is downloaded locally:
-    1) Open a terminal window and navigate to the folder
-    2) type `pry` in the terminal to enter pry
-    3) In pry, `load ./lib/teams.rb` to load the sample file.
-    4) Explore the associated teams / conferences / divisions of the sample data set of college football teams.
+    1. Open a terminal window and navigate to the folder
+    2. type `pry` in the terminal to enter pry
+    3. In pry, `load ./lib/teams.rb` to load the sample file.
+    4. Explore the associated teams / conferences / divisions of the sample data set of college football teams.
 
 
 Features
